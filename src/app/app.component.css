@@ -1,0 +1,68 @@
+/* Una vez completado el html, empezaremos el css*/
+.body {
+    font-family: Arial, sans-serif;/*ponemos el tipo de letra y demas configuraciones para nuestro blog, como el color de fondo, margenes y color de letra*/
+    background-color: #d2c287;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    width: 70%;/*Aqui he configurado el recuadro de mi blog, su margen, ancho, color de fondo */
+    margin: 0 auto;
+    background-color: #e9db74;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header .hobbies {
+    text-align: center;/* nos ayuda a alinear el texto de encabezado*/
+}
+
+.header img {
+    border-radius: 50%; /*Aqui configure la imagen de perfil */
+    width: 100px;
+    height: 100px;/*La configure a modo de circulo, por eso el radio y tambien su posicion */
+    justify-self: baseline;
+}
+
+.header h1 {
+    font-size: 36px; /*Aqui he configurado mi nombre y en donde va ubicado */
+    margin: 10px 0;
+    margin-left: 180px;
+    margin-top: -80px;
+}
+
+
+.hobbies {
+    display: flex; /*Aqui configure las imagenes, situandolas donde deben */
+    justify-content: space-around;
+    margin-top: 120px;
+    margin-left: -50px;
+}
+
+.hobby {
+
+    width: 25%;
+    text-align: center;
+    margin-right:1px;
+}
+
+.hobby img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.foto2 img {
+    border-radius: 50%;    /*Aqui configure el logo del final, solo copie y pegue las configuraciones de la foto de perfil, ya que es la misma */
+    width: 80px;
+    height: 80px;
+    justify-self: baseline;
+    margin-left: 600px;
+    margin-bottom: -80px;
+}
+.contact {  /*Aqui configure parte de mi pie de pagina, donde van mis redes sociales*/
+    text-align:left;   
+    margin-left: 80px;
+}
